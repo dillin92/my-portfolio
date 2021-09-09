@@ -3,7 +3,7 @@ import dillyIllyin from '../../assets/cover/dillyillyin.jpg'
 
 const About = () => {
     return(
-        <section className="my-5">
+        <section className="my-5 grey">
         <h1 id="about">Who am I?</h1>
         <img src={dillyIllyin} className="my-2" style={{ width: "100%" }} alt="cover" />
         <div className="my-2">

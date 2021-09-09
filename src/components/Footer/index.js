@@ -3,19 +3,26 @@ import React from 'react';
 
 const Footer = () => {
     return(
-        <footer>
-        <section class ="contact-info" id="contact-info">
-          <h2>Contact Info</h2>
+        <footer id="footer">
+          <div class="card text-center">
+            <div class="card-header">
+              Contact Info
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Email</h5>
+              <p class="card-text">If you need to reach me with any questions...</p>
+              <ul>
+                <li className="list-inline-item"><strong>Email:</strong> <a href="#">dillin970@gmail.com</a></li>
+                <li className="list-inline-item"><strong>Github:</strong> <a href="#">github.com/dillin92</a></li>
+                <li className="list-inline-item"><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
+              </ul>
+            </div>
 
-          <ul>
-            <li><strong>Email:</strong> <a href="#">dillin970@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">github.com/dillin92</a></li>
-            <li><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
-          </ul>
-
-          <h2>Thank you for taking the time to peruse my portfolio</h2>
-          <h3 class="sincerely"><br/>Sincerely- Dillin Helsley</h3>
-        </section>
+            <div class="card-footer text-muted">
+              <h2>Thank you for taking the time to peruse my portfolio</h2>
+              <h3 class="sincerely"><br/>Sincerely- Dillin Helsley</h3>
+            </div>
+          </div>
       </footer>
     )
 }
