@@ -25,6 +25,9 @@ const Nav = () => {
                             <a class="nav-link" href="#footer">Contact</a>
                         </li>
                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
                     
                     </ul>
                     
