@@ -4,17 +4,22 @@ import Nav from './components/Nav';
 import Portfolio  from './pages/portfolio';
 import Footer from './components/Footer'
 import styles from './App.css';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div>
-      <Nav></Nav>
+      <Nav/>
       <main>
        
-        <Portfolio></Portfolio>
-        <About></About>
+       <div className="container col-4 ">
+        <Portfolio/>
+       </div>
+    
+        <Resume/>
+        <About/>
       </main>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }

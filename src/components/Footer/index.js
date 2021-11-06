@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return(
-        <footer id="footer">
+        <footer id="contact">
           <div class="card text-center">
             <div class="card-header">
               Contact Info

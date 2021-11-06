@@ -3,8 +3,9 @@ import image1 from '../../src/assets/cover/choovie.png';
 import image2 from '../assets/cover/github.png';
 import image3 from '../assets/cover/budget.png';
 import image4 from '../assets/cover/whatchaeatin.png';
+import image5 from '../assets/cover/justnoodlin.png';
 import Project from '../components/projects';
-import Resume from '../components/Resume';
+
 
 
 const projects = [
@@ -31,27 +32,27 @@ const projects = [
         href: "http://whatcha-eatin.herokuapp.com/",
         img: image4,
         tech: "Javascript, React JS, Heroku"
+    },
+    {
+        name: "Just Noodlin(Wordpress Blogsite)",
+        href: "https://justnoodlin.org",
+        img: image5,
+        tech: "Wordpress, Elementor"
     }
 ];
 
 const Portfolio = () => {
     return(
 
-    <div className="container d-inline-flex p-2 bd-highlight">
-        <div className="row">
+    <div className="container d-inline-flex p-2 bd-highlight" >
+        <div className="row" >
        
-                <h1>PORTFOLIO</h1>
-           
-                {projects.map((project) => {
-                return <Project className="col-sm-4" projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech}/>
-            }) }
-         
-        
-        </div>
+                <h1 style={{ backgroundColor: "#999"}}>PORTFOLIO</h1>
 
-        <div className="resume">
-            <h1>Resume</h1>
-            <Resume/>
+                        {projects.map((project) => {
+                         return <Project className="" projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
+                    }) }
+        
         </div>
 
     </div>
@@ -60,6 +61,9 @@ const Portfolio = () => {
     )
 
 }
+
+
+
 
 export default Portfolio;
 
