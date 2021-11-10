@@ -3,10 +3,10 @@ import React from "react";
 
 
 
-const Nav = () => {
+const Navbar = () => {
     return(
         <header>
-            <Nav className="navbar navbar-expand-lg navbar-light bg-light blue .text-primary">
+            <div className="navbar navbar-expand-lg navbar-light bg-light blue .text-primary">
                 <div className="container-fluid">
                 <a className="navbar-brand" href="#portfolio">Dillin Helsley's Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +33,10 @@ const Nav = () => {
                     
                 </div>
                 </div>
-            </Nav>
+            </div>
 
         </header>
     )
 }
 
-export default Nav;
+export default Navbar;

@@ -44,13 +44,15 @@ const projects = [
 const Portfolio = () => {
     return(
 
-    <div className="container d-inline-flex p-2 bd-highlight" >
-        <div className="row" >
-       
-                <h1 style={{ backgroundColor: "#999"}}>PORTFOLIO</h1>
+    <div style={{ margin: 0, padding: 0, fontFamily: 'cursive', boxSizing: "border-box"}}>
 
-                        {projects.map((project) => {
-                         return <Project className="" projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
+        
+        
+        <div className="row" style={{ display: "inline-flex", textAlign: "center"}} >
+                    <h1>PORTFOLIO</h1>
+
+                    {projects.map((project) => {
+                         return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
                     }) }
         
         </div>

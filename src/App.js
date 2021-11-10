@@ -1,24 +1,27 @@
 import React from 'react';
 import About from './components/About';
-import Nav from './components/Nav';
+import Navbar from './components/Nav';
 import Portfolio  from './pages/portfolio';
 import Footer from './components/Footer'
-import styles from './App.css';
-import Resume from './components/Resume';
+
 
 function App() {
   return (
     <div>
-      <Nav/>
-      <main>
+      <Navbar/>
+      <main style={{ display: "inline-flex"}}>
        
        <div className="container col-4 ">
         <Portfolio/>
        </div>
+
+       <div style={{ display:"grid"}}><About/></div>
+       
     
-        <Resume/>
-        <About/>
       </main>
+
+     
+      
       <Footer/>
     </div>
   );
