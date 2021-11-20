@@ -5,19 +5,23 @@ const Project  = ({projectName,projectUrl,projectImg,projectTech}) => {
     return (
 
 
-    <div className="card" style={{ textAlign:"center", display: "inherit", display: "inline-flex", padding: "20px", backgroundColor: "black", color: "limegreen" , margin: "2px"}} >
-          <h3 className="card-title">{projectName}</h3>
-        <img src={projectImg} className="card-img-top" style={{ borderRadius: "28%", marginTop: "10px", position: "static", boxShadow:"0 0 10px 5px white" }}></img>
+    <div className="grid grid-cols-10 h-7" >
+          <h2 className="font-serif">{projectName}</h2>
+          <a href={projectUrl}> <img src={projectImg} href={projectUrl} className="card-img-top"></img></a>
+         
           
       <div className="card-body">
           
-          <h2>Project Technology:</h2>
-            <h3 className="text-sm font-medium text-gray-900">{projectTech}</h3>
+          <h3>Project Technology:</h3>
+            <h4>{projectTech}</h4>
           
-          <a href={projectUrl} className="btn btn-primary" style={{ display: "inline", position: "relative", margin:"20px"}}>Go to Project!</a>
+          
       </div>
 
     </div>
+
+    
+
       
     )
 }

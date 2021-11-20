@@ -9,13 +9,13 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <main style={{ display: "inline-flex"}}>
+      <main>
        
-       <div className="container col-4 ">
+       <div >
         <Portfolio/>
        </div>
 
-       <div style={{ display:"grid"}}><About/></div>
+       <div><About/></div>
        
     
       </main>

@@ -43,28 +43,28 @@ const projects = [
 
 const Portfolio = () => {
     return(
+        
+    <ul className="space-y-4">
 
-    <div style={{ margin: 0, padding: 0, fontFamily: 'cursive', boxSizing: "border-box"}}>
+    <h1>PORTFOLIO</h1>
 
         
         
-        <div className="row" style={{ display: "inline-flex", textAlign: "center"}} >
-                    <h1>PORTFOLIO</h1>
+        <li className="">
+                   
 
                     {projects.map((project) => {
                          return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
                     }) }
         
-        </div>
+        </li>
 
-    </div>
+    </ul>
        
 
     )
 
 }
-
-
 
 
 export default Portfolio;
