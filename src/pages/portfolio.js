@@ -6,8 +6,6 @@ import image4 from '../assets/cover/whatchaeatin.png';
 import image5 from '../assets/cover/justnoodlin.png';
 import Project from '../components/projects';
 
-
-
 const projects = [
     {
         name:"Github Profile",
@@ -43,28 +41,21 @@ const projects = [
 
 const Portfolio = () => {
     return(
-        
-    <ul className="space-y-4">
+        <section style={{ backgroundColor: "blue", padding: "50px", fontFamily: "fantasy"}}>
 
-    <h1>PORTFOLIO</h1>
+<h1>PORTFOLIO</h1>
 
-        
-        
-        <li className="">
-                   
+<section style={{backgroundColor: "rgb(104, 103, 103, 0.85)",
+  flex: "1 80%",
+  textAlign: "center"}}>
+ {projects.map((project) => {
+ return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
+ }) }
+</section>
 
-                    {projects.map((project) => {
-                         return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
-                    }) }
-        
-        </li>
-
-    </ul>
-       
-
+</section>     
     )
-
-}
+};
 
 
 export default Portfolio;
