@@ -9,12 +9,12 @@ const Footer = () => {
               Contact Info
             </div>
             <div class="card-body">
-              <h5 class="card-title">Email</h5>
-              <p class="card-text">If you need to reach me with any questions...</p>
+           
               <ul>
-                <li className="list-inline-item"><strong>Email:</strong> <a href="#">dillin970@gmail.com</a></li>
-                <li className="list-inline-item"><strong>Github:</strong> <a href="#">github.com/dillin92</a></li>
-                <li className="list-inline-item"><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
+                <li className="list-inline-item"> <a href="#"><strong>Email</strong></a></li>
+                <li className="list-inline-item"><a href="github.com/dillin92"><strong>Github</strong></a></li>
+                <li className="list-inline-item"><a href="https://www.linkedin.com/in/dillin-helsley-821668208/"><strong> LinkedIn</strong></a></li>
+                <li className="list-inline-item"><a href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume (Google Doc)</strong></a></li>
               </ul>
             </div>
 
@@ -23,6 +23,7 @@ const Footer = () => {
               <h3 class="sincerely"><br/>Sincerely- Dillin Helsley</h3>
             </div>
           </div>
+          
       </footer>
     )
 }

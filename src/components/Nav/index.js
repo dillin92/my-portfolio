@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
     return(
-        <header style={{backgroundColor: "red"}}>
+        <header>
             <div className="navbar navbar-expand-lg navbar-light bg-light blue .text-primary">
                  <div className="container-fluid">
                  <a className="navbar-brand" href="#portfolio">Dillin Helsley's Portfolio</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
                          </li>
                         
                          <li className="nav-item">
-                             <a className="nav-link" href="#resume">Resume</a>
+                             <a className="nav-link" href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing">Resume</a>
                          </li>
                     
                      </ul>

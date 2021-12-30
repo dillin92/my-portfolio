@@ -1,48 +1,52 @@
 import React from "react";
-import image1 from "../assets/cover/thehelsleyboys.png";
+import image1 from "../assets/cover/thehelsleys.png";
+import image2 from '../assets/cover/thehelsleyboys.png';
+import image3 from '../assets/cover/thehelsleysinflorida.png';
+import image4 from '../assets/cover/aniinchicago.png';
+import image5 from '../assets/cover/eliasinthesky.png';
+import image6 from '../assets/cover/jayleighatthebeach.png';
+import image7 from '../assets/cover/dillyillyin.png';
 
 
-const About = () => {
- return (
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+
+let slides = [
+     
+    <div id="about" style={{ textAlign: "center"}}>
+        <img style={{ height: "500px", width: "750px"}} src={image1} alt="1"/>
+        <h6>The Helsley's</h6>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src={{image1}} class="d-block w-100" alt="..."/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-100" alt="..."/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="..."/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
+   ,
+   <div id="about" style={{ textAlign: "center"}}>
+        <img style={{ height: "500px", width: "750px"}}  src={image2} alt="1"/>
+        <h6> A Chirstmas Photo of my sons and I</h6>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
- )
-}
 
-export default About;
+      ,
+      <div id="about" style={{ textAlign: "center"}}>
+        <img style={{ height: "500px", width: "750px"}} src={image3} alt="1"/>
+        <h6> My family in Navarre, Florida</h6>
+    </div>,
+
+    <div id="about" style={{ textAlign: "center"}}>
+    <img style={{ height: "500px", width: "750px"}} src={image4} alt="1"/>
+    <h6>My daughter Anistacia in front of the Marina Towers in Chicago, Illinois</h6>
+</div>,
+
+<div id="about" style={{ textAlign: "center"}}>
+        <img style={{ height: "550px", width: "750px"}} src={image5} alt="1"/>
+        <h6>My son Elias looking down from the Sears Tower in Chicago, Illinois</h6>
+    </div>,
+    <div id="about" style={{ textAlign: "center"}}>
+    <img style={{ height: "500px", width: "750px"}} src={image6} alt="1"/>
+    <h6>My step-daughter Jayleigh playing at the beach in Oskaloosa Island, Florida</h6>
+</div>,
+<div id="about" style={{ textAlign: "center"}}>
+        <img style={{ height: "500px", width: "750px"}} src={image7} alt="1"/>
+        <h6>Me performing at the Emerson theatre in Indianapolis</h6>
+    </div>
+ 
+    
+];
+
+export default slides;
