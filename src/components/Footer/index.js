@@ -4,11 +4,11 @@ import React from 'react';
 const Footer = () => {
     return(
         <footer id="contact">
-          <div class="card text-center">
-            <div class="card-header">
+          <div className="card text-center">
+            <div className="card-header">
               Contact Info
             </div>
-            <div class="card-body">
+            <div className="card-body">
            
               <ul>
                 <li className="list-inline-item"> <a href="#"><strong>Email</strong></a></li>
@@ -18,9 +18,9 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="card-footer text-muted">
+            <div className="card-footer text-muted">
               <h2>Thank you for taking the time to peruse my portfolio</h2>
-              <h3 class="sincerely"><br/>Sincerely- Dillin Helsley</h3>
+              <h3 className="sincerely"><br/>Sincerely- Dillin Helsley</h3>
             </div>
           </div>
           

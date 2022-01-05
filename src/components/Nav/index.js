@@ -7,7 +7,7 @@ const Navbar = () => {
         <header>
             <div className="navbar navbar-expand-lg navbar-light bg-light blue .text-primary">
                  <div className="container-fluid">
-                 <a className="navbar-brand" href="#portfolio">Dillin Helsley's Portfolio</a>
+                 <a className="navbar-brand" href="#portfolio">Kris Tyler's Portfolio</a>
                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span className="navbar-toggler-icon"></span>
                  </button>
