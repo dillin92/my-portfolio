@@ -26,13 +26,13 @@ const projects = [
         tech: "Javascript, CSS, Node.js, MongoDB, mongoose"
     },
     {
-        name: "Whatcha Eatin(REACT APP)",
+        name: "Whatcha Eatin  (REACT APP)",
         href: "http://whatcha-eatin.herokuapp.com/",
         img: image4,
         tech: "Javascript, React JS, Heroku"
     },
     {
-        name: "Just Noodlin(Wordpress Blogsite)",
+        name: "Just Noodlin   (Wordpress Blogsite)",
         href: "https://justnoodlin.org",
         img: image5,
         tech: "Wordpress, Elementor"
