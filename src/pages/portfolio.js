@@ -41,7 +41,7 @@ const projects = [
 
 const Portfolio = () => {
     return(
-        <section style={{ backgroundColor: "blue", padding: "50px", fontFamily: "fantasy"}}>
+        <section style={{ backgroundColor: "grey", padding: "50px", fontFamily: "fantasy"}}>
 
 <h1>PORTFOLIO</h1>
 
@@ -59,4 +59,5 @@ const Portfolio = () => {
 
 
 export default Portfolio;
+
 

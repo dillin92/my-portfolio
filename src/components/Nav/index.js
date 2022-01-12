@@ -1,41 +1,35 @@
-import React from "react";
+import React from 'react';
+import {FaBars} from 'react-icons/fa';
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
 
 
 const Navbar = () => {
-    return(
-        <header>
-            <div className="navbar navbar-expand-lg navbar-light bg-light blue .text-primary">
-                 <div className="container-fluid">
-                 <a className="navbar-brand" href="#portfolio">Dillin Helsley's Portfolio</a>
-                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                     <span className="navbar-toggler-icon"></span>
-                 </button>
-                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                         <li className="nav-item">
-                             <a className="nav-link active" href="/" aria-current="page">Home</a>
-                         </li>
-                         <li className="nav-item">
-                             <a className="nav-link" href="#about">About</a>
-                         </li>
+    return (
+     <>
+        <Nav>
+            <NavbarContainer>
+                <NavLogo to='/'>
+                    Dillin Helsley Web Development
+                </NavLogo>
+                <MobileIcon>
+                    <FaBars/>
+                </MobileIcon>
+                <NavMenu>
+                    <NavItem>
+                        <NavLinks to="#portfolio">Portfolio</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="#about">About</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="#contact">Contact</NavLinks>
+                    </NavItem>
+                </NavMenu>
+            </NavbarContainer>
+        </Nav>
+     </>
+    )
+}
 
-                         <li className="nav-item">
-                             <a className="nav-link" href="#contact">Contact</a>
-                         </li>
-                        
-                         <li className="nav-item">
-                             <a className="nav-link" href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing">Resume</a>
-                         </li>
-                    
-                     </ul>
-                    
-                 </div>
-                 </div>
-             </div>
-
-         </header>
-     )
- }
-
- export default Navbar;
+export default Navbar;

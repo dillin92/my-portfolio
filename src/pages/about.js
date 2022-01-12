@@ -13,7 +13,7 @@ import image7 from '../assets/cover/dillyillyin.png';
 let slides = [
      
     <div id="about" style={{ textAlign: "center"}}>
-        <img style={{ height: "500px", width: "750px"}} src={image1} alt="1"/>
+        <img style={{ height: "100%", width: "100%"}} src={image1} alt="1"/>
         <h6>The Helsley's</h6>
     </div>
    ,

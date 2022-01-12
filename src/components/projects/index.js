@@ -8,7 +8,7 @@ const Project  = ({projectName,projectUrl,projectImg,projectTech}) => {
           <a href={projectUrl}> <img  style={{borderRadius: "28%",
   position: "static",
   marginRight: "125px",
-  boxShadow: "0 0 10px 5px white"}}src={projectImg} href={projectUrl} className="card-img-top"></img></a>         
+  boxShadow: "0 0 10px 5px white"}}src={projectImg} href={projectUrl} className="card-img-top" alt=""></img></a>         
       <div className="card-body">
           
           <h3>Project Technology:</h3>
