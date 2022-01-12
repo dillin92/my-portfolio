@@ -17,13 +17,13 @@ const Navbar = () => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="#portfolio">Portfolio</NavLinks>
+                        <NavLinks href="#portfolio">Portfolio</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="#about">About</NavLinks>
+                        <NavLinks href="#about">About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="#contact">Contact</NavLinks>
+                        <NavLinks href="#contact">Contact</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer>
