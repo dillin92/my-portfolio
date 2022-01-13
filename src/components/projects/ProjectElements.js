@@ -49,4 +49,10 @@ width: 100%;
 export const ProjectName = styled.h2`
     text-align: center;
     margin-left: 175px;
+
+    @media screen and (max-width: 950px) {
+      margin-right: 125px;
+        }
+
+
 `;
