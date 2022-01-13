@@ -1,10 +1,10 @@
 import React from 'react';
-import { ProjectBubble, ProjectImage, ProjectContainer } from './ProjectElements';
+import { ProjectBubble, ProjectImage, ProjectContainer, ProjectName } from './ProjectElements';
 
 const Project  = ({projectName,projectUrl,projectImg,projectTech}) => {
     return (
-    <ProjectContainer style= {{height: "250px", width: "350px", display: "inline-block", margin: "20px"}}>
-          <h2 style={{textAlign: "center", padding: "50px",marginRight: "130px"}} className="font-serif">{projectName}</h2>
+    <ProjectContainer style= {{ display: "inline-block", margin: "20px"}}>
+          <ProjectName style={{textAlign: "center", padding: "50px",marginRight: "130px"}} className="font-serif">{projectName}</ProjectName>
 
           <ProjectBubble href={projectUrl}> <ProjectImage src={projectImg} alt="magnificently coded masterpieces"/></ProjectBubble>  
 
