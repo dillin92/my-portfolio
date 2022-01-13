@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './components/About';
-import {Carousel} from '3d-react-carousal';
+import {Carousal} from '3d-react-carousal';
 import slides from './pages/carousel/carousel';
 import Navbar from './components/Nav';
 import Hero from './components/Hero';
@@ -19,9 +19,9 @@ function App() {
       <Portfolio/>
       
 
-      <StyledCarousel>
-        <Carousel id="about" slides={slides} autoplay={true} interval={100000}/>
-      </StyledCarousel>
+      <StyledCarousal>
+        <Carousal id="about" slides={slides} autoplay={true} interval={100000}/>
+      </StyledCarousal>
       
       <About/>
     
