@@ -39,8 +39,10 @@ width: 100%;
   
 }
 
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 950px) {
+  height: 50%;
+  width: 50%;
+  margin-left: 125px;
     }
 `
 
