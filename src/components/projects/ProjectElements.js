@@ -51,8 +51,14 @@ export const ProjectName = styled.h2`
     margin-left: 175px;
 
     @media screen and (max-width: 950px) {
-      margin-right: 125px;
+      margin-right: 250px;
         }
 
 
 `;
+
+export const ProjectTech = styled.div`
+@media screen and (max-width: 950px) {
+  margin-right: 250px;
+    }
+`
