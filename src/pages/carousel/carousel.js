@@ -19,7 +19,7 @@ let slides = [
    ,
    <div id="about" style={{ textAlign: "center"}}>
         <img style={{ height: "500px", width: "750px"}}  src={image2} alt="1"/>
-        <h6> A Chirstmas Photo of my sons and I</h6>
+        <h6> A Christmas Photo of my sons and I</h6>
     </div>
 
       ,
