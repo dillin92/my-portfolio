@@ -13,7 +13,7 @@ border-radius: 28%;
 height:75%;
 width:75%;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1084px) {
   height: 75%; 
   width:75%;
     }
