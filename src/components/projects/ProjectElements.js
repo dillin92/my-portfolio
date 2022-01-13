@@ -3,10 +3,7 @@ import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
 display: flex;
-flex-direction: row;
-
-
-
+flex-direction: column;
 `;
 
 export const ProjectBubble = styled.a`
@@ -58,6 +55,7 @@ export const ProjectName = styled.h2`
 `;
 
 export const ProjectTech = styled.div`
+
 @media screen and (max-width: 950px) {
   margin-right: 250px;
     }
