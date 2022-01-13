@@ -41,7 +41,7 @@ const projects = [
 
 const Portfolio = () => {
     return(
-        <section style={{ backgroundColor: "grey", padding: "50px", fontFamily: "fantasy"}}>
+        <section id="porto" style={{ backgroundColor: "grey", padding: "50px"}}>
 
 <h1>PORTFOLIO</h1>
 
