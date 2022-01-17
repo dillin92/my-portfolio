@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ProjectContainer = styled.div`
 display: flex;
 flex-direction: column;
+padding: 25px;
 `;
 
 export const ProjectBubble = styled.a`
@@ -12,6 +13,7 @@ border-radius: 28%;
 height:75%;
 width:75%;
 margin-left: 175px;
+padding: 10px;
 
 
 
@@ -28,8 +30,10 @@ margin-left: 175px;
 export const ProjectImage = styled.img`
 border-radius: 28%;
 box-shadow: 0 0 10px 5px white;
-height: 100%;
-width: 100%;
+height: 70%;
+width: 70%;
+margin-left: 150px;
+
 
 &:hover{
   box-shadow: 0 0 10px 5px #74FF33;
@@ -40,12 +44,14 @@ width: 100%;
   height: 75%;
   width: 75%;
   margin-right: 125px;
+  margin-left:0;
     }
 `
 
 export const ProjectName = styled.h2`
     text-align: center;
     margin-left: 175px;
+    padding: 10px;
 
     @media screen and (max-width: 950px) {
       margin-right: 250px;

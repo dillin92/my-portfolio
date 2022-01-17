@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <HeroDiv>
-        <HeroImage src={image1} />
+        <HeroImage src={image1} alt="Onaga, King of Dragons"/>
       </HeroDiv>
     </>
   );
