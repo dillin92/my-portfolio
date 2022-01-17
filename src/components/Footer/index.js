@@ -19,7 +19,7 @@ const Footer = () => {
           <ContactInfoLi><ContactInfoA href="dillin970@gmail.com"><BsFillEnvelopeOpenFill/><strong>Email</strong></ContactInfoA></ContactInfoLi> 
           <ContactInfoLi> <ContactInfoA href="github.com/dillin92"><AiFillGithub></AiFillGithub><strong>Github</strong></ContactInfoA></ContactInfoLi>
           <ContactInfoLi><AiFillLinkedin/><ContactInfoA href="https://www.linkedin.com/in/dillin-helsley-821668208/"><strong> LinkedIn</strong></ContactInfoA></ContactInfoLi>
-          <ContactInfoLi><SiGooglesheets/><ContactInfoA href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume (Google Doc)</strong></ContactInfoA></ContactInfoLi>
+          <ContactInfoLi><SiGooglesheets/><ContactInfoA href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume</strong></ContactInfoA></ContactInfoLi>
       </ContactInfoUl>
 
         

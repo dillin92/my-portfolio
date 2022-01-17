@@ -14,6 +14,11 @@ width: 100%;
 text-align: center;
 padding: 35px;
 
+@media screen and (max-width: 950px) 
+    margin-left: 0px;
+    padding: 0px;
+      }
+
 `
 
 export const ContactInfoUl =styled.ul`
@@ -35,13 +40,14 @@ list-style-type: none;
 width: 100%;
 margin-left: 45px;
 color: #74FF33;
-    
 
 
 
 
-@media screen and (max-width: 950px) 
+
+@media screen and (max-width: 950px) {
     margin-left: 0px;
-      }
-  
-;`
+    width: auto;
+    padding: 5px;
+    
+      };`
