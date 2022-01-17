@@ -7,9 +7,6 @@ import image5 from '../../assets/cover/eliasinthesky.png';
 import image6 from '../../assets/cover/jayleighatthebeach.png';
 import image7 from '../../assets/cover/dillyillyin.png';
 
-
-
-
 let slides = [
      
     <div id="about" style={{ textAlign: "center"}}>

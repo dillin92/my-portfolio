@@ -37,8 +37,8 @@ width: 100%;
 }
 
 @media screen and (max-width: 950px) {
-  height: 50%;
-  width: 50%;
+  height: 75%;
+  width: 75%;
   margin-right: 125px;
     }
 `
