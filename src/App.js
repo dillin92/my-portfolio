@@ -1,5 +1,4 @@
 import React from 'react';
-import About from './components/About';
 import {Carousel} from '3d-react-carousal';
 import slides from './pages/carousel/carousel';
 import Navbar from './components/Nav';
@@ -21,10 +20,7 @@ function App() {
 
       <StyledCarousel>
         <Carousel id="about" slides={slides} autoplay={true} interval={100000}/>
-      </StyledCarousel>
-      
-      <About/>
-    
+      </StyledCarousel> 
       <Footer/>
     
     </Router>

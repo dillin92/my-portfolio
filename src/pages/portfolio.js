@@ -41,19 +41,16 @@ const projects = [
 
 const Portfolio = () => {
     return(
-        <section id="portfolio" style={{ backgroundColor: "grey", padding: "50px"}}>
-
-<h1>PORTFOLIO</h1>
-
-<section style={{backgroundColor: "rgb(104, 103, 103, 0.85)",
-  flex: "1 80%",
-  textAlign: "center"}}>
- {projects.map((project) => {
- return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
- }) }
-</section>
-
-</section>     
+        <section id="portfolio" style={{ backgroundColor: "grey", padding: "50px"}} key="portfolio">
+            <h1>PORTFOLIO</h1>
+            <section style={{backgroundColor: "rgb(104, 103, 103, 0.85)",
+            flex: "1 80%",
+            textAlign: "center"}}>
+            {projects.map((project) => {
+            return <Project projectName={project.name} projectUrl={project.href} projectImg={project.img} projectTech={project.tech} />
+            }) }
+            </section>
+        </section>     
     )
 };
 

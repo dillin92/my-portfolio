@@ -8,7 +8,7 @@ const Project  = ({projectName,projectUrl,projectImg,projectTech}) => {
 
           <ProjectBubble href={projectUrl}> <ProjectImage src={projectImg} alt="magnificently coded masterpieces"/></ProjectBubble>  
 
-      <ProjectTech>      
+      <ProjectTech key="project-tech">      
           <h3>Project Technology:</h3>
           <h4>{projectTech}</h4>
       </ProjectTech>
