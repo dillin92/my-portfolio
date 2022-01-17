@@ -11,6 +11,7 @@ margin: auto;
 
 export const AboutMeP = styled.p`
 width: 100%;
+text-align: center;
 
 `
 
@@ -18,10 +19,6 @@ export const ContactInfoUl =styled.ul`
 display: flex;
 background-color: #000;
 padding: 50px;
-
-
-
-
 ;`
 
 export const ContactInfoA =styled.a`
@@ -31,6 +28,13 @@ text-decoration: none;
 
 export const ContactInfoLi = styled.li`
 list-style-type: none;
-margin-left: 30px;
 width: 100%;
+margin-left: 45px;
+
+
+
+@media screen and (max-width: 950px) 
+    margin-left: 0px;
+      }
+  
 ;`
