@@ -20,10 +20,13 @@ export const ContactInfoUl =styled.ul`
 display: flex;
 background-color: #000;
 padding: 50px;
+
+
 ;`
 
 export const ContactInfoA =styled.a`
 text-decoration: none;
+color: #74FF33;
 
 ;`
 
@@ -31,6 +34,9 @@ export const ContactInfoLi = styled.li`
 list-style-type: none;
 width: 100%;
 margin-left: 45px;
+color: #74FF33;
+    
+
 
 
 
