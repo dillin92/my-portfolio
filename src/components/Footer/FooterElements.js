@@ -12,6 +12,7 @@ margin: auto;
 export const AboutMeP = styled.p`
 width: 100%;
 text-align: center;
+padding: 35px;
 
 `
 
