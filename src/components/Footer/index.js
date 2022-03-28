@@ -33,9 +33,9 @@ const Footer = () => {
 //     return(
 //         <footer id="contact">
 //           <div className="card text-center">
-//             <div className="card-header">
 //               Contact Info
-//             </div>
+//             <div className="card-header">
+//          </div>
 //             <div className="card-body">
            
 //               <ul>
@@ -44,6 +44,7 @@ const Footer = () => {
 //                 <li><a href="https://www.linkedin.com/in/dillin-helsley-821668208/"><strong> LinkedIn</strong></a></li>
 //                 <li><a href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume (Google Doc)</strong></a></li>
 //               </ul>
+
 //             </div>
 
 //             <div className="card-footer text-muted">
