@@ -25,8 +25,6 @@ export const ContactInfoUl =styled.ul`
 display: flex;
 background-color: #000;
 padding: 50px;
-
-
 ;`
 
 export const ContactInfoA =styled.a`
