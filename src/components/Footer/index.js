@@ -6,7 +6,7 @@ import { AboutMeP, FooterContainer, ContactInfoA, ContactInfoUl, ContactInfoLi }
 
 const Footer = () => {
   return (
-    <FooterContainer key="footer-container">
+    <FooterContainer id="contact" key="footer-container">
 
 
         <AboutMeP>
