@@ -7,12 +7,14 @@ flex-direction: column;
 width:auto; 
 margin: auto;
 
+
 `
 
 export const AboutMeP = styled.p`
 width: 100%;
-text-align: center;
+text-align: left;
 padding: 35px;
+margin: 20px;
 
 @media screen and (max-width: 950px) {
     margin-left: 0px;

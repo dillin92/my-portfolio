@@ -20,6 +20,7 @@ const Footer = () => {
           <ContactInfoLi> <ContactInfoA href="github.com/dillin92"><AiFillGithub></AiFillGithub><strong>Github</strong></ContactInfoA></ContactInfoLi>
           <ContactInfoLi><AiFillLinkedin/><ContactInfoA href="https://www.linkedin.com/in/dillin-helsley-821668208/"><strong> LinkedIn</strong></ContactInfoA></ContactInfoLi>
           <ContactInfoLi><SiGooglesheets/><ContactInfoA href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume</strong></ContactInfoA></ContactInfoLi>
+          <ContactInfoLi><SiGooglesheets/><ContactInfoA href="https://docs.google.com/document/d/1HGTv3ACzvQicD-w5alnNf9xP751mZBhjhxpjLS_xJuc/edit?usp=sharing"><strong>Letter of Recommendation</strong></ContactInfoA></ContactInfoLi>
       </ContactInfoUl>
 
         
@@ -28,33 +29,5 @@ const Footer = () => {
     </FooterContainer>
   )
 }
-
-// const Footer = () => {
-//     return(
-//         <footer id="contact">
-//           <div className="card text-center">
-//               Contact Info
-//             <div className="card-header">
-//          </div>
-//             <div className="card-body">
-           
-//               <ul>
-//                 <li> <a href="dillin970@gmail.com"><strong>Email</strong></a></li>
-//                 <li><a href="github.com/dillin92"><strong>Github</strong></a></li>
-//                 <li><a href="https://www.linkedin.com/in/dillin-helsley-821668208/"><strong> LinkedIn</strong></a></li>
-//                 <li><a href="https://docs.google.com/document/d/1173qKNAcMAK2DSqXaIpOXIwnJHs8PlvX7bFnYA6UWjQ/edit?usp=sharing"><strong>Resume (Google Doc)</strong></a></li>
-//               </ul>
-
-//             </div>
-
-//             <div className="card-footer text-muted">
-//               <h2>Thank you for taking the time to peruse my portfolio</h2>
-//               <h3 className="sincerely"><br/>Sincerely- Dillin Helsley</h3>
-//             </div>
-//           </div>
-          
-//       </footer>
-//     )
-// }
 
 export default Footer;
