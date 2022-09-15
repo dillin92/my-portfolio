@@ -9,6 +9,7 @@ const Hero = () => {
     <>
       <HeroDiv>
         <HeroImage src={image1} alt="Onaga, King of Dragons"/>
+        <h1>yo</h1>
       </HeroDiv>
     </>
   );
