@@ -4,6 +4,7 @@ import slides from './pages/carousel/carousel';
 import Navbar from './components/Nav';
 import Hero from './components/Hero';
 import Portfolio  from './pages/portfolio';
+
 import Footer from './components/Footer'
 import {BrowserRouter as Router } from 'react-router-dom';
 import { StyledCarousel } from './pages/carousel/CarouselElements';
